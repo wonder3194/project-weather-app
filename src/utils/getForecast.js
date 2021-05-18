@@ -1,7 +1,8 @@
 const request = require("request");
+const auth = require("./auth.js");
 
 const getForecast = function (lat, longi, callback) {
-  let url = `http://api.weatherstack.com/current?access_key=97a296a990af52c52caf08592a65c8b0&query=${lat},${longi}`;
+  let url = `http://api.weatherstack.com/current?access_key=${auth.weatherPass}&query=${lat},${longi}`;
 
   request({ url, json: true }, (error, /*response*/ { body }) => {
     if (error) {
