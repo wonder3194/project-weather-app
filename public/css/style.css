@@ -1,0 +1,55 @@
+body {
+  color: rgba(22, 4, 4, 0.795);
+  font-family: Arial;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  background: rgb(196, 195, 195);
+  color: rgb(104, 100, 100);
+  padding: 10px;
+  margin: 15px;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: rgb(126, 93, 9);
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.portrait {
+  width: 250px;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+#location {
+  border: 1px, solid, rgb(122, 118, 118);
+  padding: 10px;
+}
+
+#search {
+  cursor: pointer;
+  border: 1px, solid, rgb(122, 118, 118);
+  background: rgb(122, 118, 118);
+  padding: 10px;
+  color: white;
+}
